@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description"
+        content="Portfolio of Vidushi Upadhyay, showcasing projects, skills, and contact information.">
+    <title>Vidushi Upadhyay | Portfolio</title>
+    <!-- Google Fonts + Font Awesome -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Theme Toggle Button -->
+    <div class="theme-toggle" id="themeToggle" aria-label="Switch dark/light mode">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="container navbar">
+            <div class="logo">
+                <a href="#">VU</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME Section -->
+        <section id="home" class="home-section">
+            <div class="container home-content">
+                <div class="avatar">
+                    <img src="images/profile.png" alt="Vidushi Upadhyay">
+                </div>
+                <h1>Vidushi Upadhyay <span class="highlight">✦</span></h1>
+                <div class="tagline">
+                    I'm a <span class="typed-text" id="typed"></span>
+                </div>
+                <p class="intro-text">I enjoy solving challenging problems and building efficient, scalable solutions. Let’s create something impactful together.</p>
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-arrow-down"></i> View Work</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT Section -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm <strong>Vidushi Upadhyay</strong>, a B.Tech student with a strong interest in developing problem‑solving skills and logical thinking. I enjoy tackling challenging problems and continuously improving my understanding of programming concepts.</p>
+                        <p>I have hands‑on experience with <strong>Java</strong> and <strong>C</strong>, and I’m always eager to learn new technologies and expand my skill set. My goal is to build efficient, scalable solutions and grow as a developer through consistent practice and real‑world projects.</p>
+                        <p>Right now, I’m focused on building embedded systems projects and strengthening my foundation in core programming.</p>
+                        <ul class="info-list">
+                            <li><i class="fas fa-graduation-cap"></i> <strong>Education:</strong> B.Tech (Pursuing)</li>
+                            <li><i class="fas fa-code"></i> <strong>Experience:</strong> Hands‑on with Java & C</li>
+                            <li><i class="fas fa-globe"></i> <strong>Focus:</strong> Problem Solving & Logical Thinking</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Projects Built</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Years Learning</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Curiosity Level</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS Section -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 – RFID Security System -->
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>RFID Security System</h3>
+                        <p>Smart access control system using RFID module and sensors. Authorized users are granted entry by scanning a card/tag; otherwise, access is denied and an alert is triggered.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span><span>C++</span><span>RFID</span><span>Sensors</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 – Automatic Water Dispenser -->
+                    <div class="project-card">
+                        <div class="project-icon"><i class="fas fa-tint"></i></div>
+                        <h3>Automatic Water Dispenser</h3>
+                        <p>Touch‑free water dispensing system using Arduino and ultrasonic/IR sensor. Detects an object (hand/glass) and activates a pump or valve automatically.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span><span>C++</span><span>Sensor</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="projects-note">More exciting projects coming soon!</p>
+            </div>
+        </section>
+
+        <!-- SKILLS Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Tech Stack & Skills</h2>
+                <div class="skills-wrapper">
+                    <div class="skills-chips">
+                        <div class="skill-chip"><i class="fab fa-java"></i> Java</div>
+                        <div class="skill-chip"><i class="fas fa-code"></i> C</div>
+                        <div class="skill-chip"><i class="fab fa-git-alt"></i> Git/GitHub</div>
+                        <div class="skill-chip"><i class="fas fa-microchip"></i> Arduino</div>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Java</span><span>80%</span></div>
+                            <div class="bar-track">
+                                <div class="bar-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>C</span><span>85%</span></div>
+                            <div class="bar-track">
+                                <div class="bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Git & GitHub</span><span>75%</span></div>
+                            <div class="bar-track">
+                                <div class="bar-fill" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-info"><span>Arduino</span><span>70%</span></div>
+                            <div class="bar-track">
+                                <div class="bar-fill" data-width="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=upadhyayharshita2000@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                            <h4>Email</h4>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=upadhyayharshita2000@gmail.com">upadhyayharshita2000@gmail.com</a>
+                            <button class="copy-btn" id="copyEmailBtn"><i class="far fa-copy"></i> Copy</button>
+                        </div>
+                        <div class="contact-card">
+                            <a href="https://www.linkedin.com/in/vidushi-upadhyay-a1904237a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/vidushi-upadhyay-a1904237a/"
+                                target="_blank">linkedin.com/in/vidushi-upadhyay-a1904237a/</a>
+                        </div>
+                        <div class="contact-card">
+                            <a href="https://github.com/vidushiupadhyay20" target="_blank"><i class="fab fa-github"></i></a>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/vidushiupadhyay20" target="_blank">github.com/vidushiupadhyay20</a>
+                        </div>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h3>Send a message</h3>
+                        <form id="demoForm">
+                            <input type="text" id="formName" placeholder="Your name" required>
+                            <input type="email" id="formEmail" placeholder="Your email" required>
+                            <textarea id="formMsg" rows="4" placeholder="Your message..."></textarea>
+                            <button type="submit" class="btn btn-primary">Send <i
+                                    class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2026 Vidushi Upadhyay — Built with <i class="fas fa-heart"></i> and modern web technologies</p>
+            <div class="footer-social">
+                <a href="https://github.com/vidushiupadhyay20" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vidushi-upadhyay-a1904237a/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=upadhyayharshita2000@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
