@@ -9,15 +9,15 @@ This portfolio is built to represent my work, skills, and experience in web deve
 
 ## 👨‍💻 About Me
 
-Hi, I’m **Abhishek Kumar**, a Computer Science student passionate about software development and building impactful projects using modern technologies.
+Hi, I’m **Vidushi Upadhyay**, a Computer Science student passionate about software development and building impactful projects using modern technologies.
 
 ---
 
 ## 📬 Contact
 
-- 📧 Email: abhishekkrmay30@gmail.com 
-- 💼 LinkedIn: https://www.linkedin.com/in/abhishek-kumar-30may2007/
-- 🐙 GitHub: https://github.com/abhishekkumar-code30  
+- 📧 Email: upadhyayharshita2000@gmail.com
+- 💼 LinkedIn: https://www.linkedin.com/in/vidushi-upadhyay-a1904237a/
+- 🐙 GitHub: https://github.com/vidushiupadhyay20
 
 ---
 
